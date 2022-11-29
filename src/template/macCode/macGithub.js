@@ -107,6 +107,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 #nice .custom:before {
   content: '';
   display:block;
+  background: url(./mac-point.svg);
   height: 30px;
   width: 100%;
   background-size:40px;

@@ -6,6 +6,7 @@ export default `/* 自定义样式，实时生效，浏览器实时缓存 */
  * 英文换行 word-break: break-all;
  */
 .layout {
+  
 }
 
 /* 段落，下方未标注标签参数均同此处
@@ -21,7 +22,7 @@ export default `/* 自定义样式，实时生效，浏览器实时缓存 */
  */
 p {
     line-height: 1.9em !important;
-    color: #333333 !important;
+    color: #34495e !important;
     -webkit-font-smoothing: unset !important;
     font-family: -apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial !important;
 }
@@ -40,7 +41,7 @@ h1:after {
 
 /* 二级标题 */
 h2 {
-  border-bottom: 2px solid rgb(239, 112, 96);
+  border-bottom: 2px solid #42b983;
   font-size: 1.3em;
 }
 
@@ -48,7 +49,7 @@ h2 {
 h2 span {
   display: inline-block;
   font-weight: bold;
-  background: rgb(239, 112, 96);
+  background: #42b983;
   color: #ffffff;
   padding: 3px 0px 1px;
   border-top-right-radius: 3px;
@@ -71,15 +72,16 @@ h2:after {
 
 /* 三级标题 */
 h3 {
+  
   display: inline;
-  border-bottom: 2px solid rgb(239, 112, 96);
-  background: linear-gradient(to bottom,transparent 60%,rgba(239,116,92,.3) 0) no-repeat;
+  border-bottom: 2px solid #42b983;
+    background: linear-gradient(to bottom,transparent 60%,rgba(66,1185,131,.3) 0) no-repeat;
 }
 
 /* 三级标题内容 */
 h3 span {
   color: #1a1a1a;
-  padding-right: 10px;
+ padding-right: 10px;
 }
 
 /* 三级标题修饰 请参考有实例的主题 */
@@ -95,8 +97,9 @@ li {
  * 背景色 background: gray;
  */
 blockquote {
-    border-left-color: rgb(239, 112, 96) !important;
-    background: rgb(255, 249, 249) !important;
+    border-left-color: #42b983 !important;
+    color: #858585;
+    background: #fcfcfc !important;
 }
 
 /* 引用文字 */
@@ -105,7 +108,7 @@ blockquote p {
 
 /* 链接 */
 a {
-  color: rgb(239, 112, 96) !important;
+  color: #42b983 !important;
   border-bottom: none !important;
 }
 

@@ -25,6 +25,8 @@ class Theme extends React.Component {
       this.props.view.setStyleEditorOpen(true);
     } else {
       this.props.content.setStyle(css);
+      // 切换自定义自动打开css编辑
+      this.props.view.setStyleEditorOpen(false);
     }
   };
 
@@ -73,6 +75,7 @@ class Theme extends React.Component {
     const themeList = [
       {themeId: "normal", name: "默认主题", css: TEMPLATE.normal},
       {themeId: "orange", name: "橙心", css: TEMPLATE.orange},
+      {themeId: "vue", name: "VUE", css: TEMPLATE.vue},
       {themeId: "custom", name: "自定义", css: TEMPLATE.custom},
     ];
     // let themeList = JSON.parse(window.localStorage.getItem(THEME_LIST));

@@ -78,6 +78,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 #nice .custom:before {
   content: '';
   display:block;
+  background: url(./mac-point.svg);
   height: 30px;
   width: 100%;
   background-size:40px;

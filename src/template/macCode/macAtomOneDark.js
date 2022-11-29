@@ -104,6 +104,7 @@ hue-6-2: #e6c07b
 #nice .custom:before {
   content: '';
   display:block;
+  background: url(./mac-point.svg);
   height: 30px;
   width: 100%;
   background-size:40px;

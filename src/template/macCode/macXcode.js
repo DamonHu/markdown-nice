@@ -112,6 +112,7 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
 #nice .custom:before {
   content: '';
   display:block;
+  background: url(./mac-point.svg);
   height: 30px;
   width: 100%;
   background-size:40px;

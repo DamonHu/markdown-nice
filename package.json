@@ -6,12 +6,12 @@
   "private": false,
   "main": "lib/Lib.js",
   "module": "lib/Lib.js",
-  "homepage": "https://www.mdnice.com",
+  "homepage": "http://md.hudongdong.com",
   "license": "GPL-3.0",
   "typings": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mdnice/markdown-nice"
+    "url": "https://github.com/DamonHu/markdown-nice"
   },
   "scripts": {
     "start": "node scripts/start.js",

@@ -1,6 +1,7 @@
 import custom from "./markdown/custom";
 import normal from "./markdown/normal";
 import orange from "./markdown/orange";
+import vue from "./markdown/vue";
 
 import content from "./content.md";
 
@@ -24,6 +25,7 @@ export default {
   basic,
   normal,
   orange,
+  vue,
   custom,
   code: {
     atomOneDark,

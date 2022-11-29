@@ -62,6 +62,7 @@ if (!window.localStorage.getItem(THEME_LIST)) {
     JSON.stringify([
       {themeId: "normal", name: "默认主题", css: TEMPLATE.normal},
       {themeId: "orange", name: "橙心", css: TEMPLATE.orange},
+      {themeId: "vue", name: "VUE", css: TEMPLATE.vue},
       {themeId: "custom", name: "自定义", css: TEMPLATE.custom},
     ]),
   );
