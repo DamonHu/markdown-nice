@@ -17,7 +17,7 @@ class Reset extends Component {
       okType: "danger",
       cancelText: "取消",
       onOk: () => {
-        this.props.content.setContent("## 左侧编辑markdown文章, 右侧预览复制");
+        this.props.content.setContent("## 点击输入");
         this.props.content.setStyle(TEMPLATE.normal);
         this.props.content.setCustomStyle(TEMPLATE.custom);
         this.props.navbar.setTemplateNum(0);
