@@ -308,5 +308,5 @@ export const THEME_API = () => {
   const pageSize = 15;
   const checked = true;
   const order = "ASC";
-  return `https://api.mdnice.com/themes?currentPage=${currentPage}&pageSize=${pageSize}&checked=${checked}&order=${order}`;
+  return `https://www.hudongdong.com/themes?currentPage=${currentPage}&pageSize=${pageSize}&checked=${checked}&order=${order}`;
 };

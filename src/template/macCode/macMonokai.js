@@ -78,7 +78,6 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 #nice .custom:before {
   content: '';
   display:block;
-  background: url(https://my-wechat.mdnice.com/point.png);
   height: 30px;
   width: 100%;
   background-size:40px;

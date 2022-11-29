@@ -95,7 +95,7 @@ export const addJuejinSuffix = () => {
   const suffix = document.createElement("p");
   suffix.id = "nice-suffix-juejin-container";
   suffix.className = "nice-suffix-juejin-container";
-  suffix.innerHTML = `本文使用 <a href="https://mdnice.com/?from=juejin">mdnice</a> 排版`;
+  suffix.innerHTML = `本文由 <a href="https://www.hudongdong.com">胡东东博客</a> 编辑`;
 
   const element = document.getElementById(LAYOUT_ID);
   element.appendChild(suffix);

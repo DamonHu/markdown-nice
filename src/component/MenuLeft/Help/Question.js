@@ -5,7 +5,7 @@ import "../common.css";
 class Question extends Component {
   handleClick = () => {
     const w = window.open("about:blank");
-    w.location.href = "https://preview.mdnice.com/article/user/solve/";
+    w.location.href = "https://www.hudongdong.com";
   };
 
   render() {

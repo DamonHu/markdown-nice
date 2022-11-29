@@ -5,7 +5,7 @@ import "../common.css";
 class Document extends Component {
   handleClick = () => {
     const w = window.open("about:blank");
-    w.location.href = "https://preview.mdnice.com/articles/";
+    w.location.href = "https://www.hudongdong.com";
   };
 
   render() {

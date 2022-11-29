@@ -1,5 +1,6 @@
 import custom from "./markdown/custom";
 import normal from "./markdown/normal";
+import orange from "./markdown/orange";
 
 import content from "./content.md";
 
@@ -22,6 +23,7 @@ import basic from "./basic";
 export default {
   basic,
   normal,
+  orange,
   custom,
   code: {
     atomOneDark,

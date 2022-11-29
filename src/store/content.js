@@ -51,16 +51,17 @@ const store = new Content();
 
 // 如果为空先把数据放进去
 if (window.localStorage.getItem(CONTENT) === null) {
-  window.localStorage.setItem(CONTENT, TEMPLATE.content);
+  window.localStorage.setItem(CONTENT, "## 这里输入markdown文章");
 }
 if (!window.localStorage.getItem(STYLE)) {
-  window.localStorage.setItem(STYLE, TEMPLATE.custom);
+  window.localStorage.setItem(STYLE, TEMPLATE.normal);
 }
 if (!window.localStorage.getItem(THEME_LIST)) {
   window.localStorage.setItem(
     THEME_LIST,
     JSON.stringify([
       {themeId: "normal", name: "默认主题", css: TEMPLATE.normal},
+      {themeId: "orange", name: "橙心", css: TEMPLATE.orange},
       {themeId: "custom", name: "自定义", css: TEMPLATE.custom},
     ]),
   );

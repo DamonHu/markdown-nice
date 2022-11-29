@@ -33,11 +33,6 @@ class Theme extends React.Component {
     this.props.view.setStyleEditorOpen(!isStyleEditorOpen);
   };
 
-  subscribeMore = () => {
-    const w = window.open("about:blank");
-    w.location.href = "https://preview.mdnice.com/themes";
-  };
-
   componentDidMount = async () => {
     // let themeList = null;
     // try {
@@ -77,7 +72,8 @@ class Theme extends React.Component {
 
     const themeList = [
       {themeId: "normal", name: "默认主题", css: TEMPLATE.normal},
-      {themeId: "custom", name: "橙心", css: TEMPLATE.custom},
+      {themeId: "orange", name: "橙心", css: TEMPLATE.orange},
+      {themeId: "custom", name: "自定义", css: TEMPLATE.custom},
     ];
     // let themeList = JSON.parse(window.localStorage.getItem(THEME_LIST));
     this.props.content.setThemeList(themeList);
@@ -119,16 +115,6 @@ class Theme extends React.Component {
             </div>
           </Menu.Item>
         ))}
-        <Menu.Divider />
-        <li className="nice-themeselect-menu-item">
-          <div id="nice-menu-subscribe-more" className="nice-themeselect-theme-item" onClick={this.subscribeMore}>
-            <span>
-              <span className="nice-themeselect-theme-item-flag" />
-              <span className="nice-themeselect-theme-item-name nice-menu-subscribe-more">订阅更多主题</span>
-            </span>
-          </div>
-        </li>
-        <Menu.Divider />
 
         <li className="nice-themeselect-menu-item">
           <div id="nice-menu-view-css" className="nice-themeselect-theme-item" onClick={this.toggleStyleEditor}>

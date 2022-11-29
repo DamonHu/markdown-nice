@@ -29,7 +29,7 @@ class Navbar extends Component {
         <div className="nice-left-nav">
           {title === "" ? null : (
             <section id="nice-title" className="nice-title">
-              {title}
+              胡东东博客
             </section>
           )}
           <File />
@@ -38,9 +38,6 @@ class Navbar extends Component {
           <View />
           <Theme token={token} />
           <CodeTheme />
-          <Setting />
-          <Help />
-          <Tutorial />
         </div>
         <div className="nice-right-nav" />
       </div>

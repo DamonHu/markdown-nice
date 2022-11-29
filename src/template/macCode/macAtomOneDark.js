@@ -104,7 +104,6 @@ hue-6-2: #e6c07b
 #nice .custom:before {
   content: '';
   display:block;
-  background: url(https://my-wechat.mdnice.com/point.png);
   height: 30px;
   width: 100%;
   background-size:40px;
