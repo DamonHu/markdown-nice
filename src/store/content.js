@@ -51,7 +51,7 @@ const store = new Content();
 
 // 如果为空先把数据放进去
 if (window.localStorage.getItem(CONTENT) === null) {
-  window.localStorage.setItem(CONTENT, "## 这里输入markdown文章");
+  window.localStorage.setItem(CONTENT, "## 左侧编辑markdown文章, 右侧预览复制");
 }
 if (!window.localStorage.getItem(STYLE)) {
   window.localStorage.setItem(STYLE, TEMPLATE.normal);
