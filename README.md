@@ -1,5 +1,6 @@
 # markdown-nice本地修改版
 
+该项目fork自[mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)。移除了源库的登录、订阅等各类无用功能，只保留最原始的编辑和排版功能。
 
 本地安装方式：文件目录执行以下命令
 
@@ -19,6 +20,6 @@ npm run build
 
 在线地址: [http://md.hudongdong.com](http://md.hudongdong.com)
 
-## 注意：
+### 再次提示：
 
-更多功能请支持原版：[mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)，例如图床之类，该版本仅作为本地渲染的简单使用
+再次提示，更多功能比如图床、高级版订阅、图文同步等请支持原版：[mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)，本库仅提供认为精粹的编辑和排版
