@@ -29,7 +29,9 @@ class Navbar extends Component {
         <div className="nice-left-nav">
           {title === "" ? null : (
             <section id="nice-title" className="nice-title">
-              胡东东博客
+              <a href="https://www.hudongdong.com" target="_blank" rel="noopener noreferrer">
+                胡东东博客
+              </a>
             </section>
           )}
           <File />
